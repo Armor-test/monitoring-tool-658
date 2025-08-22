@@ -1,0 +1,41 @@
+# CODEOWNERS file for monitoring-tool-658
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-qa @Armor-test/squad-product @Armor-test/dept-identity
+
+# Directory ownership
+/styles/ @Armor-test/dept-test @Armor-test/dept-api @Armor-test/team-research
+/app/ @Armor-test/squad-ml @Armor-test/dept-automation
+/core/ @Armor-test/squad-tooling @Armor-test/dept-logging @Armor-test/dept-billing
+/helpers/ @Armor-test/grp-integration @Armor-test/squad-search @Armor-test/dept-release
+/web/ @Armor-test/grp-api @Armor-test/grp-ui
+/middleware/ @Armor-test/team-logging @Armor-test/squad-payments @Armor-test/unit-devops
+/tests/ @Armor-test/dept-release @Armor-test/grp-search
+/tools/ @Armor-test/grp-api @Armor-test/team-security @Armor-test/dept-notifications
+/dist/ @Armor-test/squad-research @Armor-test/squad-api
+/static/ @Armor-test/dept-ui @Armor-test/dept-data
+/test/ @Armor-test/team-security @Armor-test/dept-ui
+/utils/ @Armor-test/squad-reporting @Armor-test/grp-payments @Armor-test/team-notifications
+/internal/ @Armor-test/team-governance @Armor-test/grp-ui
+/src/ @Armor-test/squad-frontend @Armor-test/team-security @Armor-test/team-logging
+/controllers/ @Armor-test/team-frontend @Armor-test/dept-test
+
+# File type ownership
+*.c @Armor-test/squad-cache @Armor-test/team-research @Armor-test/squad-performance
+*.php @Armor-test/squad-database @Armor-test/team-reporting @Armor-test/dept-security
+*.tsx @Armor-test/team-security @Armor-test/dept-data @Armor-test/grp-search
+*.xml @Armor-test/team-reporting @Armor-test/squad-mobile @Armor-test/team-logging
+*.go @Armor-test/squad-product @Armor-test/unit-devops
+*.py @Armor-test/dept-api @Armor-test/squad-research @Armor-test/squad-product
+*.ts @Armor-test/squad-product @Armor-test/grp-payments
+*.gradle @Armor-test/team-frontend @Armor-test/unit-governance
+*.swift @Armor-test/team-research @Armor-test/team-security
+*.cs @Armor-test/squad-ux @Armor-test/unit-design
+*.toml @Armor-test/grp-search @Armor-test/dept-api @Armor-test/squad-tooling
+*.graphql @Armor-test/unit-design @Armor-test/squad-mobile
+*.tf @Armor-test/grp-api @Armor-test/unit-devops @Armor-test/squad-search
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
